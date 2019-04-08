@@ -38,7 +38,43 @@ import wedo2ConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 import boostIconURL from './boost/boost.png';
 import boostInsetIconURL from './boost/boost-small.svg';
 
+import scrattinoIconURL from './scrattino/scrattino.png';
+import scrattinoInsetIconURL from './scrattino/scrattino-small.svg';
+import scrattinoConnectionIconURL from './scrattino/scrattino-connection.svg';
+import scrattinoConnectionSmallIconURL from './scrattino/scrattino-small.svg';
+
+
 export default [
+    {
+        name: 'scrattino',
+        extensionId: 'scrattino',
+        collaborator: 'Yengawa Lab',
+        iconURL: scrattinoIconURL,
+        insetIconURL: scrattinoInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your projects with the world."
+                description="Description for the 'micro:bit' extension"
+                id="gui.extension.microbit.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: true,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: scrattinoConnectionIconURL,
+        connectionSmallIconURL: scrattinoConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their micro:bit."
+                id="gui.extension.microbit.connectingMessage"
+            />
+        ),
+        helpLink: 'https://github.com/yokobond/scrattino3'
+    },
     {
         name: (
             <FormattedMessage
