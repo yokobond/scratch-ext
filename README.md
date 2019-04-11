@@ -44,6 +44,7 @@ This firmware of micro:bit is compatible for the 'normal' micro:bit extension fr
 
 4. ファームウェアを書き込んだ micro:bit をつなぐ。
 
+**最初は方位磁針の調整(すべてのLEDが光るようにmicro:bitを傾ける)が必要になることがあります。その調整が済むと、スクラッチをつなげるようになります。**
 
 ----
 
@@ -55,3 +56,5 @@ This firmware of micro:bit is compatible for the 'normal' micro:bit extension fr
 3. Open 'Extension Selecgtor' in the Scratch and click 'micro:bit'.
 
 4. Connect the micro:bit which downloaded the firmware.
+
+**You may have to calibrate compass (tilt micro:bit to light all LEDs) at first time. After the calibration, you can connect the micro:bit from Scratch3.**
