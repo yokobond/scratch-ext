@@ -38,7 +38,30 @@ import wedo2ConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 import boostIconURL from './boost/boost.png';
 import boostInsetIconURL from './boost/boost-small.svg';
 
+import soundfontIconURL from './soundfont/soundfont.png';
+import soundfontInsetIconURL from './soundfont/soundfont-small.svg';
+
 export default [
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="SoundFont"
+                description="Name for the 'SoundFont' extension"
+                id="gui.extension.soundfont.name"
+            />
+        ),
+        extensionId: 'soundfont',
+        iconURL: soundfontIconURL,
+        insetIconURL: soundfontInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Play instruments and drums."
+                description="Description for the 'Music' extension"
+                id="gui.extension.music.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
