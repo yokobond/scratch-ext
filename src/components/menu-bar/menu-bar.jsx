@@ -69,7 +69,7 @@ import remixIcon from './icon--remix.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import languageIcon from '../language-selector/language-icon.svg';
 
-import scratchLogo from './scratch-logo.svg';
+import scratchLogo from './scrattino-logo.svg';
 
 import sharedMessages from '../../lib/shared-messages';
 
