@@ -77,7 +77,7 @@ export default [
                 id="gui.extension.microbit.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        helpLink: 'https://github.com/yokobond/scratch-microbit-more-desktop'
     },
     {
         name: (
