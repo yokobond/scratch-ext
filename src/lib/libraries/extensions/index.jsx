@@ -80,7 +80,7 @@ export default [
                 id="gui.extension.microbit.connectingMessage"
             />
         ),
-        helpLink: 'https://github.com/yokobond/scratch-microbit-more-desktop'
+        helpLink: 'https://lab.yengawa.com/project/scratch-microbit-more/'
     },
     {
         name: (
