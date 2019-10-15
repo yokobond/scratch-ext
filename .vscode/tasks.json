@@ -14,6 +14,12 @@
                 }
             },
             "problemMatcher": []
+        },
+        {
+            "label": "deploy_microbit-more",
+            "type": "npm",
+            "script": "deploy -- -e microbit-more",
+            "problemMatcher": []
         }
     ]
 }
