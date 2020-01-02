@@ -13,11 +13,11 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".blocks-only_controls_2GEvs {\n    position: absolute;\n    z-index: 2;\n    top: 10px;\n    right: 15px;\n}\n", ""]);
+exports.push([module.i, ".blocks-only_controls_1Fuds {\r\n    position: absolute;\r\n    z-index: 2;\r\n    top: 10px;\r\n    right: 15px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
-	"controls": "blocks-only_controls_2GEvs"
+	"controls": "blocks-only_controls_1Fuds"
 };
 
 /***/ }),
