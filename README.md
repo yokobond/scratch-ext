@@ -4,6 +4,9 @@
 
 ## microbit-more
 
+ **This repository was moved to yokobond/scratch-microbit-more**
+->
+https://github.com/yokobond/scratch-microbit-more
 
 これはScratch3のmicro:bit拡張の機能をさらに拡張したものです。
 
